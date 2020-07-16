@@ -1,0 +1,11 @@
+deb http://APT_MIRROR/debian DEBIAN_RELEASE main contrib non-free
+deb-src http://APT_MIRROR/debian DEBIAN_RELEASE main contrib non-free
+
+deb http://APT_SECURITY_MIRROR/debian-security/ DEBIAN_RELEASE/updates main contrib non-free
+deb-src http://APT_SECURITY_MIRROR/debian-security/ DEBIAN_RELEASE/updates main contrib non-free
+
+deb http://APT_MIRROR/debian DEBIAN_RELEASE-updates main contrib non-free
+deb-src http://APT_MIRROR/debian DEBIAN_RELEASE-updates main contrib non-free
+
+deb http://APT_MIRROR/debian DEBIAN_RELEASE-backports main contrib non-free
+

@@ -1,0 +1,45 @@
+diff --git a/etc/locale.gen b/etc/locale.gen
+index 5a21706..a28cfa4 100644
+--- a/etc/locale.gen
++++ b/etc/locale.gen
+@@ -154,7 +154,7 @@
+ # en_SG.UTF-8 UTF-8
+ # en_US ISO-8859-1
+ # en_US.ISO-8859-15 ISO-8859-15
+-# en_US.UTF-8 UTF-8
++en_US.UTF-8 UTF-8
+ # en_ZA ISO-8859-1
+ # en_ZA.UTF-8 UTF-8
+ # en_ZM UTF-8
+diff --git a/root/.aptitude/config b/root/.aptitude/config
+new file mode 100644
+index 0000000..dccb7da
+--- /dev/null
++++ b/root/.aptitude/config
+@@ -0,0 +1,6 @@
++aptitude "";
++aptitude::Keep-Unused-Pattern "";
++aptitude::Delete-Unused-Pattern "";
++aptitude::Auto-Fix-Broken "false";
++APT "";
++APT::Install-Recommends "false";
+diff --git a/root/.bashrc b/root/.bashrc
+index 5d3a56e..92525f4 100644
+--- a/root/.bashrc
++++ b/root/.bashrc
+@@ -6,9 +6,9 @@
+ # umask 022
+ 
+ # You may uncomment the following lines if you want `ls' to be colorized:
+-# export LS_OPTIONS='--color=auto'
+-# eval "`dircolors`"
+-# alias ls='ls $LS_OPTIONS'
++export LS_OPTIONS='--color=auto'
++eval "`dircolors`"
++alias ls='ls $LS_OPTIONS'
+ # alias ll='ls $LS_OPTIONS -l'
+ # alias l='ls $LS_OPTIONS -lA'
+ #
+-- 
+2.11.0
+

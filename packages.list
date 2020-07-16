@@ -1,0 +1,9 @@
+aptitude
+linux-image-amd64
+init
+lvm2
+vim
+locales
+network-manager
+isc-dhcp-client
+gdisk
